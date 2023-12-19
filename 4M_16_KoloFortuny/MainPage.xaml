@@ -21,9 +21,9 @@
                 <Entry x:Name="entLitera" />
                 <Button Clicked="btnLitera" Text="wprowadź" />
             </HorizontalStackLayout>
-            <Label Text="Prób: 0" />
-            <Label Text="Zgadniętych: 0" />
-            <Label Text="Błednych: 0" />
+            <Label Text="Prób: 0" x:Name="lblProb"/>
+            <Label Text="Zgadniętych: 0"  x:Name="lblProbP"/>
+            <Label Text="Błednych: 0"  x:Name="lblProbN"/>
 
 
 
