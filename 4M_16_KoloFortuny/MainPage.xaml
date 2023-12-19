@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4M_16_KoloFortuny.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            >
+            <Label Text="Słowo do zgadnięcia:" />
+            <Label
+                Text="--------"
+                x:Name="lblZgadnij"
+                FontSize="72"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+                />
+            <HorizontalStackLayout>
+                <Label Text="Podaj literę: " />
+                <Entry x:Name="entLitera" />
+                <Button Clicked="btnLitera" Text="wprowadź" />
+            </HorizontalStackLayout>
+            <Label Text="Prób: 0" />
+            <Label Text="Zgadniętych: 0" />
+            <Label Text="Błednych: 0" />
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
